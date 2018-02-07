@@ -2,7 +2,7 @@ Github Sort by Comment Reactions Extension
 ======
 Allows you to sort by comment reaction count in issues and PRs on Github &mdash; *TODO: Install via Chrome Web Store.*
 
-TODO: Screenshot
+![Screenshot](https://raw.githubusercontent.com/dbkaplun/github-sort-by-comment-reactions-extension/master/screenshot.png)
 
 ## Installation
 
@@ -11,8 +11,6 @@ TODO: Install via Chrome Web Store.
 ## Usage
 
 When you visit any issues or PRs page on Github, this extension will provide an option to sort comments by reaction count.
-
-TODO: To see all available options, copy and paste the following URL into Chrome: `chrome://extensions/?options=gccinjjdbfdkkkebfbeipopijjfohfgj`
 
 ## Development
 
