@@ -1,21 +1,13 @@
 {
   "manifest_version": 2,
-  "name": "Github Markdown Outline Extension",
-  "description": "Displays a clickable outline of all topic headers for markdown documents on Github",
-  "version": "1.4.2",
-  "homepage_url": "https://github.com/dbkaplun/github-markdown-outline-extension",
+  "name": "Github Sort by Comment Reactions Extension",
+  "description": "Allows you to sort by comment reaction count in issues and PRs on Github",
+  "version": "1.0.0",
+  "homepage_url": "https://github.com/dbkaplun/github-sort-by-comment-reactions-extension",
   "author": "Dan Kaplun <dbkaplun@gmail.com>",
   "icons": {},
   "content_scripts": [{
     "matches": ["https://github.com/*"],
-    "js": ["index.js"],
-    "css": ["index.css"]
-  }],
-  "options_ui": {
-    "page": "options.html",
-    "chrome_style": true
-  },
-  "permissions": [
-    "storage"
-  ]
+    "js": ["index.js"]
+  }]
 }
